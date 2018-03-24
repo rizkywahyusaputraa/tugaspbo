@@ -23,6 +23,8 @@ public class sepeda {
         System.out.println("harga :"+harga);
         System.out.println("jumlah_roda :"+jumlah_roda);
         System.out.println("kecepatan :"+kecepatan);
+       
+         System.out.println("==================================");
     }
    
     

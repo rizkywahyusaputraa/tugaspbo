@@ -12,6 +12,9 @@ package tugaspbo;
 public class sepedaaksi {
     public static void main(String[] args) {
           sepeda polygon = new sepeda();
+          sepeda trhill = new sepeda();
+          sepeda pasific = new sepeda();
+          
           
           polygon.merk="polygon";
           polygon.warna="merah";
@@ -19,8 +22,18 @@ public class sepedaaksi {
           polygon.jumlah_roda="2";
           polygon.kecepatan="30km/jam";
           
-          polygon.cetakInfo();
           
-    }
+          trhill.merk="trhill";
+          trhill.warna="Biru";
+          trhill.harga="1000000";
+          trhill.jumlah_roda="2 + cadangan";
+          trhill.kecepatan="60km/jam";
+          
+          
+           
+          
+          
+          polygon.cetakInfo();
+          trhill.cetakInfo();    }
     
 }
