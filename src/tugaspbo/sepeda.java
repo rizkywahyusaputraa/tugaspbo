@@ -11,4 +11,19 @@ package tugaspbo;
  */
 public class sepeda {
     
+    String merk;
+    String warna;
+    String harga;
+    String jumlah_roda;
+    String kecepatan;
+    
+    void cetakInfo(){
+        System.out.println("merk :"+merk);
+        System.out.println("warna :"+warna);
+        System.out.println("harga :"+harga);
+        System.out.println("jumlah_roda :"+jumlah_roda);
+        System.out.println("kecepatan :"+kecepatan);
+    }
+   
+    
 }
