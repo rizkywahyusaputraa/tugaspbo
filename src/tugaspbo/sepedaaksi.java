@@ -29,11 +29,16 @@ public class sepedaaksi {
           trhill.jumlah_roda="2 + cadangan";
           trhill.kecepatan="60km/jam";
           
-          
+         pasific.merk="pasificl";
+          pasific.warna="putih";
+         pasific.harga="1500000";
+          pasific.jumlah_roda="2 ";
+         pasific.kecepatan="50km/jam";
            
           
-          
+          pasific.cetakInfo();
           polygon.cetakInfo();
-          trhill.cetakInfo();    }
+          trhill.cetakInfo();    
+    }
     
 }
